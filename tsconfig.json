@@ -8,9 +8,6 @@
     "strict": true,
     "strictPropertyInitialization": false,
     "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"],
-    },
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
