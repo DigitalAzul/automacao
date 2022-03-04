@@ -38,6 +38,13 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.21.tgz#864b987c0c68d07b4345845c3e63b75edd143644"
   integrity sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==
 
+"@types/shipit@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@types/shipit/-/shipit-1.5.3.tgz#f8270c5fe1da3a5c5615430242ca0aa533d628f8"
+  integrity sha1-+CcMX+HaOlxWFUMCQsoKpTPWKPg=
+  dependencies:
+    "@types/node" "*"
+
 "@types/strip-bom@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/strip-bom/-/strip-bom-3.0.0.tgz#14a8ec3956c2e81edb7520790aecf21c290aebd2"

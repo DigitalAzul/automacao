@@ -7,7 +7,7 @@ module.exports = (shipit) => {
 
   shipit.initConfig({
     default: {
-      deployTo: "/home/x900l/app-aytomacao",
+      deployTo: "/home/x900l/app-automacao/dist",
       repositoryUrl: process.env.REPOSITORY_URL,
       keepReleases: 5,
       shared: {
@@ -43,7 +43,7 @@ module.exports = (shipit) => {
         apps: [
           {
             name: '${appName}',
-            script: '${shipit.releasePath}/server.js',
+            script: '${shipit.releasePath}/dist/server.js',
             watch: true,
             autorestart: true,
             restart_delay: 1000,

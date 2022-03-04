@@ -12,12 +12,13 @@
       "@/*": ["./*"],
     },
     "esModuleInterop": true,
-    "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
   "exclude": [
-    "./dist"
+    "./dist",
+    "shipitfile.js",
+    "ecosystem.config.js"
   ]
 }
